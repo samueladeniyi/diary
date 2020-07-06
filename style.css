@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Galada";
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("./img/bkgrd.jpg");
+
+  /* Control the height of the image */
+  height: 39vw;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text2 {
+  position: absolute;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Galada";
+}
+
+form {
+  text-align: center;
+  font-family: "Galada";
+}
+
+.bg-img2 {
+  /* The image used */
+  background-image: url("./img/bkgrd.jpg");
+
+  /* Control the height of the image */
+  height: 90vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
