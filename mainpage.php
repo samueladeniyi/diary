@@ -3,6 +3,11 @@ error_reporting(E_ALL & ~E_NOTICE);
 session_start();
 include("config.php");
 
+if(!isset($_SESSION['id'])){
+  header('Location: index.php');
+  exit;
+} 
+
 $query = "SELECT diary FROM employee where id='".$_SESSION['id']."' LIMIT 1";
 
 $result = mysqli_query($con,$query);
